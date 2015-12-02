@@ -40,10 +40,10 @@ class PyTest(TestCommand):
 setup(
       name='py-goldsberry',
       version=goldsberry.__version__,
-      url='http://github.com/bradleyfay/py-goldsberry',
+      url='http://github.com/Reid1923/py-goldsberry',
       license='MIT',
       author='Bradley Fay',
-      author_email='bradley.fay@gmail.com',
+      author_email='rdelaney1923@gmail.com',
       tests_require=['pytest'],
       install_requires=['requests>=2.7'],
       description='API interface for stats.nba.com',
