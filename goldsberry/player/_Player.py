@@ -404,6 +404,7 @@ class shot_chart:
                            'EndRange':endrange,
                            'RangeType':rangetype,
                            }
+        print(self._api_param)
         self._pull = _requests.get(self._url, params=self._api_param)
     def chart(self):
         _headers = self._pull.json()['resultSets'][0]['headers']
